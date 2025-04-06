@@ -104,6 +104,6 @@ PRINT R5          ; Output the result
 
 ## GitHub Link
 
-[GitHub Repository](https://github.com/example/sum_of_squares_compiler)
+[GitHub Repository](https://github.com/Nischel-nif/23115027_compiler-design)
 
 
