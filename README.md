@@ -14,6 +14,40 @@ This project demonstrates a simple compiler in C++ that calculates the sum of sq
 - Code Optimization (basic)
 - Target Code Generation
 
+## installation msys2 mingw64
+Go to the official MSYS2 website:
+link: https://www.msys2.org/
+Click on “Installer for 64-bit” to download the installer (e.g., msys2-x86_64-*.exe).
+
+download and Install msys2
+-Open the MSYS2 shell from Start Menu: Look for "MSYS2 MSYS" 
+### Run the update command:
+command: pacman -Syu
+
+###  Install MinGW 64-bit Toolchain
+
+Open MSYS2 MinGW 64-bit shell:
+
+Start Menu → MSYS2 → MSYS2 MinGW 64-bit
+
+Install the GCC C/C++ compiler and make:
+
+
+pacman -S mingw-w64-x86_64-gcc make
+(Optional but helpful) Install Python if you're using it:
+
+
+pacman -S mingw-w64-x86_64-python
+
+### Confirm its working
+
+In the MSYS2 MinGW 64-bit shell, run:
+
+g++ --version
+make --version
+
+If you see version info, you're good to go!
+
 ## Input Format
 
 Enter two integer values when prompted.
